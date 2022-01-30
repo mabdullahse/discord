@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/discord/static/css/main.ccede871.css",
-    "main.js": "/discord/static/js/main.cccf5660.js",
+    "main.js": "/discord/static/js/main.f5d2cc45.js",
     "static/media/whitney-medium.woff": "/discord/static/media/whitney-medium.caae8d9abdbee216a4ca.woff",
     "static/media/whitney-semibold.woff": "/discord/static/media/whitney-semibold.ee4a7c9c3fe1da4bd804.woff",
     "static/media/whitney-light.woff": "/discord/static/media/whitney-light.dc2270bc01becea3d5b9.woff",
@@ -9,10 +9,10 @@
     "static/media/ginto-semibold.woff": "/discord/static/media/ginto-semibold.7429f86e91b75ac681da.woff",
     "index.html": "/discord/index.html",
     "main.ccede871.css.map": "/discord/static/css/main.ccede871.css.map",
-    "main.cccf5660.js.map": "/discord/static/js/main.cccf5660.js.map"
+    "main.f5d2cc45.js.map": "/discord/static/js/main.f5d2cc45.js.map"
   },
   "entrypoints": [
     "static/css/main.ccede871.css",
-    "static/js/main.cccf5660.js"
+    "static/js/main.f5d2cc45.js"
   ]
 }
