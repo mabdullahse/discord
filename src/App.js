@@ -1,18 +1,11 @@
 import {
   Link,
   Outlet,
-  useLocation,
-  Routes,
-  Route
-} from "react-router-dom";
-import Servers from "./pages/Servers";
+  useLocation, 
+} from "react-router-dom"; 
 import DiscordIcon from './svg/DiscordIcon';
 
-let servers = [
-  { id: "1", img: "tailwind.png" },
-  { id: "2", img: "next.png" },
-  { id: "3", img: "mirage.png" },
-];
+ 
 
 function App() {
   const route = useLocation();
@@ -24,9 +17,9 @@ function App() {
         <NavLink href="/"> <DiscordIcon className="h-6 w-7" /> </NavLink>
         <hr className="border-t-white/10 w-8 border-t-2 mx-auto rounded-3xl" />
 
-        {servers.map((server) => {
+        {/* {servers.map((server) => {
           return (<NavLink href={`/server/${server.id}`}> <img src={`/server/${server.img}`} key={server.id} /> </NavLink>)
-        })}
+        })} */}
         {
           [...Array(40)].map(e => Math.random() * 40 | 0).map((item, index) => {
 
